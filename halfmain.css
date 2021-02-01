@@ -1,0 +1,111 @@
+*{
+    list-style: none;
+    border:0;
+    text-decoration: none;
+    margin: 0;
+    padding:0;
+    font-family: 'Coda Caption' ,sans-serif ;
+    color:white;
+}
+body{
+    background: url("https://images.wallpaperscraft.com/image/buildings_architecture_city_198278_2560x1600.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+.lefthalf{
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    opacity: 0.5;;
+    position: absolute;
+    background:rgb(0,0,0,0.6);
+    transition: 0.7s;
+}
+.lefthalf:hover{
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    opacity: 1;;
+    position: absolute;
+    background:rgb(0,0,0,0.7);
+    transition: 0.7s;
+}
+.p{
+    border: 1px solid aqua;
+    margin:10%;
+    margin-left: 20%;
+    width: 60%;
+    height: 100px;
+    position: absolute;
+}
+p{
+    text-align: center;
+    margin: 30px auto;
+    font-size: 25px;
+    
+}
+
+.forms{
+    position: relative;
+    top: 20px;
+}
+
+label{
+    position: relative;
+    top: 270px;
+    left: 20%;
+    font-size: 20px;
+    color:white;
+}
+input:focus{
+    width: 32%;
+    outline:none;
+    display: flex;
+    top:250px;
+    left: 47%;
+    background:none;
+    position: relative;
+    cursor: default;
+    border-bottom:1px solid aqua;
+    transition:0.5s;
+    
+}
+
+input{
+    width: 25%;
+    outline:none;
+    display: flex;
+    font-size: 18px;
+    top:250px;
+    left: 47%;
+    background:none;
+    position: relative;
+    border-bottom:1px solid aqua;
+    
+}
+
+
+.secondhalf{
+    width: 50%;
+    height: 80%;
+    top: 10%;
+    right: 0;
+    position: absolute;
+    background:black;
+
+}
+h1{
+    font-size: 30px;
+    margin: 10% 45%;
+}
+.icons ul img{
+    margin-left: 5%;
+    padding-left:2%;
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+.icons ul{
+    margin-left: 32%;
+}
+
